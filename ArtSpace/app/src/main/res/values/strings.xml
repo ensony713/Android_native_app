@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ArtSpace</string>
+    <string name="paint_1">Impression, Soleil levant</string>
+    <string name="paint_1_artist">Monet</string>
+    <string name="paint_1_year">1872</string>
+    <string name="paint_2">Woman with a Parasol</string>
+    <string name="paint_2_artist">Monet</string>
+    <string name="paint_2_year">1875</string>
+    <string name="paint_3">The Harvest</string>
+    <string name="paint_3_artist">Van Gogh</string>
+    <string name="paint_3_year">1888</string>
+</resources>

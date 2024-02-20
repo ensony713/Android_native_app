@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">complete_view</string>
+    <string name="title">All tasks completed</string>
+    <string name="body">Nice work!</string>
+</resources>
