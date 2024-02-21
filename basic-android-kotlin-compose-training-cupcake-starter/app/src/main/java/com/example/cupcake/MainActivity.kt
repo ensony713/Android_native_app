@@ -5,7 +5,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
+ *      https://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -13,14 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package com.example.cupcake
 
-package com.example.dessertclicker.model
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
+import com.example.cupcake.ui.theme.CupcakeTheme
 
-/**
- * [Dessert] is the data class to represent the Dessert imageId, price, and startProductionAmount
- */
-data class Dessert(
-    val imageId: Int,
-    val price: Int,
-    val startProductionAmount: Int
-)
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        enableEdgeToEdge()
+        super.onCreate(savedInstanceState)
+        setContent {
+            CupcakeTheme {
+                CupcakeApp()
+            }
+        }
+    }
+}
